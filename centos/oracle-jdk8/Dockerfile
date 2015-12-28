@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7.2.1511
 
 MAINTAINER aungzy
 
@@ -17,3 +17,5 @@ ENV	PATH	$PATH:/opt/jdk1.8.0_66/bin:/opt/jdk1.8.0_66/jre/bin
 
 # Uninstall utilieie(s)
 RUN yum remove -y wget
+
+CMD ["bash"]
