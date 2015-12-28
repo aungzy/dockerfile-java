@@ -16,7 +16,7 @@ ENV	JAVA_HOME	/opt/jdk1.7.0_79
 ENV JRE_HOME	/opt/jdk1.7.0_79/jre
 ENV	PATH	$PATH:/opt/jdk1.7.0_79/bin:/opt/jdk1.7.0_79/jre/bin
 
-# Uninstall utilieie(s)
+# Uninstall utilitie(s)
 RUN yum remove -y wget
 
 CMD ["bash"]

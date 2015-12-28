@@ -16,7 +16,7 @@ ENV	JAVA_HOME	/opt/jdk1.8.0_66
 ENV JRE_HOME	/opt/jdk1.8.0_66/jre
 ENV	PATH	$PATH:/opt/jdk1.8.0_66/bin:/opt/jdk1.8.0_66/jre/bin
 
-# Uninstall utilieie(s)
+# Uninstall utilitie(s)
 RUN yum remove -y wget
 
 CMD ["bash"]
